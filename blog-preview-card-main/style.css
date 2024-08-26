@@ -1,0 +1,67 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: 'Figtree', sans-serif;
+}
+body {
+	background-color: hsl(47, 88%, 63%);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+.container {
+	padding: 20px;
+	height: 530px;
+	width: 400px;
+	margin-top: 100px;
+	background-color: #fff;
+	border: 1px solid black;
+	margin: 100px;
+	border-radius: 25px;
+	display: flex;
+	flex-direction: column;
+	box-shadow: 8px 5px 1px rgb(0, 0, 0);
+}
+.coding-image {
+	align-self: center;
+	width: 100%;
+	border-radius: 15px;
+}
+.text-box * {
+	margin-top: 15px;
+}
+.description {
+	color: hsl(0, 0%, 42%);
+}
+.learning {
+	color: black;
+	font-weight: 700;
+	margin-top: 0px;
+}
+.learning-box {
+	background-color: hsl(47, 88%, 63%);
+	border-radius: 7px;
+	height: 30px;
+	width: 25%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.date {
+	font-size: 14px;
+}
+.autor-box {
+	display: flex;
+	align-items: center;
+	justify-self: flex-end;
+}
+.author {
+	color: black;
+	font-weight: 700;
+	margin-left: 10px;
+}
+.image-avatar {
+	width: 40px;
+}
